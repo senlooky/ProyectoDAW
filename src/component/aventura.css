@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2980B9, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2980B9, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+
+font-family: 'Muli', sans-serif;
+text-align: justify;
+color: #000;
+}
+.carrusel{
+    margin-left: 35px;
+    margin-right: 45px;
+        margin: 25px;
+        padding: 0px 50px 0 50px;
+        width: 500px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display:contents;
+      
+}
+.ca{
+    box-sizing: border-box;
+    border-radius: 15px;
+    background:#000;
+}
+.carrusel img{
+
+    width: 300px;
+    height: 500px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+h4,h5,h6{
+    color: whitesmoke;
+    text-align: center;
+}
+.seccion{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-right:100px ;
+    margin-left: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    
+    box-sizing: border-box;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.51);
+
+    
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+hr{
+    background-color: white;
+  }
+
+h3{
+    color: #2980B9;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to bottom, #2980B9, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to bottom, #2980B9, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.seccion p{
+
+    text-align: justify;
+    color: azure    ;
+}
+.seccion img{
+    margin-top: 25px;
+    box-shadow: 3px 4px 16px 15px rgba(212,193,193,0.75);
+    -webkit-box-shadow: 3px 4px 16px 15px rgba(212,193,193,0.75);
+    -moz-box-shadow: 3px 4px 16px 15px rgba(212,193,193,0.75);
+}
+.dentro{
+    padding-top: 100px;
+}

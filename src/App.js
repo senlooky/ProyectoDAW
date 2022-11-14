@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import HomePage from "./pages/HomePage"
+import AventuraPage from "./pages/AventuraPage"
+import CienciaPage from "./pages/CienciaPage"
+import ParaPage from "./pages/ParaPage"
+import LoginPage from "./pages/LoginPage"
+import NotFoundPage from "./pages/NotFoundPage"
+import RegistroPage from "./pages/RegistroPage"
+import LogUpPage from "./pages/LogUpPage"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+export default function App(){
+    return (
+        <BrowserRouter>
+
+        
+        <Routes>
+            <Route path="/" element={<HomePage />}></Route>
+            <Route path="/Aventura" element={<AventuraPage />}></Route>
+            <Route path="/CienciaFiccion" element={<CienciaPage />}></Route>
+            <Route path="/Paranormal" element={<ParaPage />}></Route>
+            <Route path="/Login" element={<LoginPage />}></Route>
+            <Route path="/Registro-libro" element={<RegistroPage/>}></Route>
+            <Route path="/LogUp" element={<LogUpPage/>}></Route>
+            <Route path="/*" element={<NotFoundPage />}></Route>
+
+        </Routes>
+        </BrowserRouter>
+    )
 }
-
-export default App;
