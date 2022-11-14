@@ -10,8 +10,7 @@
 
 ##licencia Implementada: 📑🖊
 
-###Atribución-NoComercial-CompartirIgual
-###CC BY-NC-SA
+ http://creativecommons.org/licenses/by/4.0/" licencia de Creative Commons Reconocimiento 4.0 Internacional.
 
 
 ## Mock ups: 📲💻
