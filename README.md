@@ -26,3 +26,8 @@ https://trello.com/b/iN9wl9yV/tareas
 ## Manual De usuario ⭐📋
 
 https://drive.google.com/file/d/1biSrkbj7dM7e3q7xn9F6lFpHZJtxe9aF/view?usp=sharing
+
+
+## Manual De tecnico ⭐📋
+
+https://drive.google.com/drive/folders/11BiXIEg9VydRGnXF1bP41MoM20nHbElW?usp=sharing
